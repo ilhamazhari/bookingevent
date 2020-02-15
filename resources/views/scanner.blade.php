@@ -10,10 +10,10 @@
 @endsection
 
 @section('script')
-<script src="https://cdn.jsdelivr.net/npm/instascan@1.0.0/index.min.js"></script>
+<script src="{{url('/js')}}/instascan.min.js"></script>
 <script type="text/javascript">
   let scanner = new Instascan.Scanner({
-    video: $('#attendeeScanner')
+    video: document.getElementById('attendeeScanner')
   });
 
   scanner.addListener('scan', function(content){

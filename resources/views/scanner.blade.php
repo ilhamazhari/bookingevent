@@ -10,7 +10,7 @@
 @endsection
 
 @section('script')
-<script src="{{url('/js')}}/instascan.min.js"></script>
+<script src="{{asset('/js/instascan.min.js')}}"></script>
 <script type="text/javascript">
   let scanner = new Instascan.Scanner({
     video: document.getElementById('attendeeScanner')

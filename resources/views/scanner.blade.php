@@ -20,10 +20,8 @@
 </style>
 @endsection
 
-<body>
-<style>
-    
-</style>
+@section('content')
+
 <h1>Scan from WebCam:</h1>
 <div>
     <b>Device has camera: </b>

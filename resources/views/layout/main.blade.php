@@ -6,8 +6,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Booking Event | @yield('title')</title>
-
     @yield('style')
+
   </head>
   <body>
     @yield('content')

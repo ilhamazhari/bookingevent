@@ -53,8 +53,8 @@
 
 @section('script')
 <script type="module">
-  import QrScanner from "/js/qr-scanner.min.js";
-  QrScanner.WORKER_PATH = "/js/qr-scanner-worker.min.js";
+  import QrScanner from "../js/qr-scanner.min.js";
+  QrScanner.WORKER_PATH = "../js/qr-scanner-worker.min.js";
 
   const video = document.getElementById('qr-video');
   const camHasCamera = document.getElementById('cam-has-camera');
